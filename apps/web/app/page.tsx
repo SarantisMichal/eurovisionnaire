@@ -28,7 +28,7 @@ export default function Home() {
       setError("");
 
       let query = supabase
-        .from("analytics.stg_contestants")
+        .from("stg_contestants")
         .select("id,year,country,country_iso")
         .order("year", { ascending: false })
         .limit(2000);
