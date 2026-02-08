@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: esc
+    schema: public
+    tables:
+      - name: esc_contestants_clean
