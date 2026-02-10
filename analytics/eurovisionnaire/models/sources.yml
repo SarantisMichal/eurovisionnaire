@@ -1,3 +1,4 @@
+
 version: 2
 
 sources:
@@ -5,3 +6,4 @@ sources:
     schema: public
     tables:
       - name: esc_contestants_clean
+      - name: esc_finals_clean
